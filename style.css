@@ -1,9 +1,16 @@
 body{
     font-family: Arial;
     background: #f4f4f4;
-    text-align: center; 
+    text-align: center;
+    color:#B2FFFF;
+    animation:cambiarColor 3s infinite;
 }
 
 h1{
     color:blue
+    font-family: Arial;
+}
+@keyframes cambiarColor{
+    from{background-color:re;}
+    to{background-color:blue;}
 }
